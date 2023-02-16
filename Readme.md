@@ -66,5 +66,6 @@ Para realizar o clone o comando a ser inserido é
 git clone <i> git@github.com:thierryLchaves/github-course.git (neste caso pode ser adicionado o endereço SSh do repositório, cada respositório disponivél terá seu endereço ssh </i> adicionar o nove nome da pasta, e importante não está no mesmo diretório que estava trabalhando, pois isso adicionara a pasta clonada dentro da sua pasta git
 
 Fazendo fork de um projeto
-Outra funcionalidade além do git clone é o fork, o git realiza a cópia de um projeto que não é seu e faz um cópia dele para você
+Outra funcionalidade além do git clone é o fork, o git realiza a cópia de um projeto que não é seu e faz um cópia dele para você, esse comando é importante pois o github faz um cópia de um
+repositório que não é da pessoa, para a pessoa em questão no proprio github, o que poseteriormente, pode ser clonado, o git clone somente serve para respositórios que são da pessoa. 
 
