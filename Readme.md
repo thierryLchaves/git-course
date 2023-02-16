@@ -44,3 +44,7 @@ Este comoando irá retonar o status do seu arquivo a um estágio anterior ao de 
 Exemplo go git reset --hard
 Este comomando como o nome sugere realiza o reset completo do commit, apagando por completo o commit que foi realizado bem com as modificações que foram realizadas. 
 
+<b> em amabos os casos deve sempre adicionar a hash do commit anterior ao commit que deseja-se utilizado 
+OBS: Em casos de utilizar no repositório online (GitHub), o comando git reset --hard, o git informara que uma diferença entre os commit's que foram utilizados e somente adicionará quando atraves do git push force
+</b>
+
