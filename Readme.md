@@ -10,4 +10,5 @@ adicionado editado e afins. Após a nova adição de um arquivo, e seu commit, �
 
 Das visualizações de logs:
 O comando principal para visualizar logs sobre os commit's que foram realizados é o comando <b> git log</b>
+Outro comando que pode ser utilizado trata-se do comando <b> git log --decorate </b>  Ao utilizar esse comando pode-se obter mais informações de log sobre sua branch, e modificações de arquivos, tais como informações de adições, comentários sobre os commits. etc...
 
