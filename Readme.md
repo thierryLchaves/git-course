@@ -60,4 +60,8 @@ git push -u origin main </br> este comando irá realizar a seguinte informação
 
 Clonando repositórios
 Para realizar o trabalho de repositórios não locais, o git disponibiliza através do comando git clone, está opção, ao acessar o repositório no github, sempre sera disponibilizado o endereço do repositório tanto em <b> SSH </b> quanto em https <i> preferir por meio de SSH é mais rápido a clonagem</i>
+</br>
+
+Para realizar o clone o comando a ser inserido é 
+git clone <i> git@github.com:thierryLchaves/github-course.git (neste caso pode ser adicionado o endereço SSh do repositório, cada respositório disponivél terá seu endereço ssh </i> adicionar o nove nome da pasta, e importante não está no mesmo diretório que estava trabalhando, pois isso adicionara a pasta clonada dentro da sua pasta git
 
