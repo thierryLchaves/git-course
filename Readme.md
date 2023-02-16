@@ -8,3 +8,6 @@ git add <nome do arquivo>
 Ao finalizar as edições pode-se/deve ser utilizado o comando git commit -m "", e de boa prache do git que seja adicionado um comentário que contenha informações, válidas sobre o que foi 
 adicionado editado e afins. Após a nova adição de um arquivo, e seu commit, é apresentado para o usuário a hash do seu commit.
 
+Das visualizações de logs:
+O comando principal para visualizar logs sobre os commit's que foram realizados é o comando <b> git log</b>
+
