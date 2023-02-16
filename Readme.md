@@ -41,4 +41,6 @@ Este comando irá retonar o status do seu arquivo no estágio de statment, de ce
 Exemplo do git reset --mixed
 Este comoando irá retonar o status do seu arquivo a um estágio anterior ao de Statment, de certa forma matando de fato o foi realizado e retornando o arquivo a estágio anterior de ser adicionado a fase pré commit, neste comando não é necessário realizar o git reset HEAD  nome do arquivo 
  
+Exemplo go git reset --hard
+Este comomando como o nome sugere realiza o reset completo do commit, apagando por completo o commit que foi realizado bem com as modificações que foram realizadas. 
 
