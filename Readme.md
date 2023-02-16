@@ -48,3 +48,13 @@ Este comomando como o nome sugere realiza o reset completo do commit, apagando p
 OBS: Em casos de utilizar no repositório online (GitHub), o comando git reset --hard, o git informara que uma diferença entre os commit's que foram utilizados e somente adicionará quando atraves do git push force
 </b>
 
+para realizar a conexão entre o git local com o git de nuvem é necessário seguir alguns passos, e configurações. 
+O primeiro e dentro do github, realizar a adição de um novo repositório de arquivos, após tal edição deverá ser adicionado os seguintes comandos
+no bash adicionar o primeiro comando este sendo 
+
+git remote add origin git@github.com:thierryLchaves/git-course.git, onde após a barra deverá ser substituído para o nome do repositório desejado
+
+
+APós isso o outro comando é
+git push -u origin main </br> este comando irá realizar a seguinte informação, git push (Irá enviar para o repositório todo log de modificações aqruivos e etc, do repositório origem para o repositósio desejado. -u (Serve somente para "trakear" para não haver a necessidade de digitar tudo novamente). orgin (e para onde irá o arquivo) main de onde está vindo o arquivo
+
