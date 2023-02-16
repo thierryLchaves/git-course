@@ -26,4 +26,16 @@ Ao realizar o comando <b> git diff </b>, será exibido em tela que o as modifica
 
 <font size = 22> <b> OBS: Em casos de edição/ commit para arquivos que já foram adicionados "git add" , pode ser utilizado o comando git commit -am "informar as modificações Boas práticas" </font></b> </br>
 
+SObre reversão de status dos arquivos. 
+Caso esteja trabalhando em um arquivo dentro de suas branchs do git, e este tenha sido editado como um todo de maneira erronea, e anteriormente a realizar a mudança de status do mesmo. 
+Podera ser utilizado o comando <b> git checkout </b> este comando ira retonar o estado origial do ultimo commit.
+Caso seja realizado o git add, ou seja o arquivo for levado para a área de "statement",  o comando <b> git reset HEAD "nome do arquivo" </b>, a variável HEAD que é passada após o comando 
+informa que deseja-se retornar ao ponteiro de origem, ou seja remover o aquivo recém adicionado do "statment" para que o mesmo possa ser editado novamente, sem quaisquer modificações pré adição.
+
+Em casos de já ter comitado, o arquivo e este então já tenha sido adicionado ao repositório de forma definitiva, existe um comando com 3 (três) variavéis, que pode ser adicioandas para resolução deste problema sendo eles:
+<b> git reset --soft / git reset --mixed / git reset /hard </b>
+
+exemplo do git reset --soft
+Este comando irá retonar o status do seu arquivo no estágio de statment, de certa forma matando o commit que foi realizado e deixando o arquivo em questão pronto para ser commitado novamenteou retornar através do git reset HEAD, sempre que for adicionado que este comando ou outro for utilizado caso deseje apagar informação é valido utilizar o git checkout nome do arquivo
+ 
 
