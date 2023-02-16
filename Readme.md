@@ -37,5 +37,8 @@ Em casos de já ter comitado, o arquivo e este então já tenha sido adicionado 
 
 exemplo do git reset --soft
 Este comando irá retonar o status do seu arquivo no estágio de statment, de certa forma matando o commit que foi realizado e deixando o arquivo em questão pronto para ser commitado novamenteou retornar através do git reset HEAD, sempre que for adicionado que este comando ou outro for utilizado caso deseje apagar informação é valido utilizar o git checkout nome do arquivo
+
+Exemplo do git reset --mixed
+Este comoando irá retonar o status do seu arquivo a um estágio anterior ao de Statment, de certa forma matando de fato o foi realizado e retornando o arquivo a estágio anterior de ser adicionado a fase pré commit, neste comando não é necessário realizar o git reset HEAD  nome do arquivo 
  
 
