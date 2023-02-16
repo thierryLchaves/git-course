@@ -58,3 +58,6 @@ git remote add origin git@github.com:thierryLchaves/git-course.git, onde após a
 APós isso o outro comando é
 git push -u origin main </br> este comando irá realizar a seguinte informação, git push (Irá enviar para o repositório todo log de modificações aqruivos e etc, do repositório origem para o repositósio desejado. -u (Serve somente para "trakear" para não haver a necessidade de digitar tudo novamente). orgin (e para onde irá o arquivo) main de onde está vindo o arquivo
 
+Clonando repositórios
+Para realizar o trabalho de repositórios não locais, o git disponibiliza através do comando git clone, está opção, ao acessar o repositório no github, sempre sera disponibilizado o endereço do repositório tanto em <b> SSH </b> quanto em https <i> preferir por meio de SSH é mais rápido a clonagem</i>
+
