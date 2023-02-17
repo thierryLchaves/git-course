@@ -69,3 +69,8 @@ Fazendo fork de um projeto
 Outra funcionalidade além do git clone é o fork, o git realiza a cópia de um projeto que não é seu e faz um cópia dele para você, esse comando é importante pois o github faz um cópia de um
 repositório que não é da pessoa, para a pessoa em questão no proprio github, o que poseteriormente, pode ser clonado, o git clone somente serve para respositórios que são da pessoa. 
 
+
+Sobre as branch
+
+O que é um branch ?
+De forma mais rapida a ser explicada, a branch e um ponteiro movel que leva a um comit.
