@@ -139,3 +139,10 @@ Pode haver casos em que tenha-se mais de um branch, apontando para o mesmo commi
 O comando que é utilizado para se criar uma nova branch é : <b> git checkout -b "aqui deve ser inserido o nome da nova branch"</b>
 par visualizar em qual branch está sendo trabalhada em seu repositório basta digitar o comando git branch
 
+<h3 class="heading" style="text-align: center;"> Movendo criando e deletando branchs </h3>
+Como dito anteriormente para visualizar a lista de branchs que existem no repositório que  está sendo trabalhado, basta digitar o comando:
+<b> git branch </b> quando for necessário criar uma nova branch para o projeto em questão o comando a ser utilizado deve ser o <b> git checkout "nome da branch" </b>
+quando é necessário realizar o retorno a branch principal, ou mudar a branch que se está trabalhando o comando utilizado deve ser o <b> git checkout "nome da branc desejada"</b>
+Em casos que é necessário apagar a branch por algum motivo, o comando a ser digitado deverá ser o <b>git branch -D "nome do branch"</b>
+
+
