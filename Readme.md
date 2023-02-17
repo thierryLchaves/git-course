@@ -296,10 +296,10 @@ Esse processo é chamado de: fast forward, no nosso exemplo ele pega o commit qu
                                                   |
                                                   |
                 C0-------C1------C2------C4------C3'
-						  |
-						  |
-  	 					  |
-					      Experiment
+                                                  |
+                                                  |
+                                                  |
+                                              Experiment
 
 
 
@@ -314,8 +314,10 @@ E dessa forma os commit ficam de forma linear, dos commit's o que mitiga a confu
 </tr>
 <tr>
 <td>Histórico Linear(O rebase sempre irá criar um histórico linear)</td>
-<td>Histótico poluído (isso pode ficar complicado a visualização do histórico caso haja muitas branchs) </td>
+<td></td>
 </table>
 
-<h1> obs é aconselhado a usar o comando pool <b>git pool --rebase </b>, evitando assim realizar mudanças em branchs que não utilizaria </h1>
+<h2> obs é aconselhado a usar o comando pool <b>git pool --rebase </b>, evitando assim realizar mudanças em branchs que não utilizaria </h2>
+
+
 
