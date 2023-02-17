@@ -125,12 +125,12 @@ Pode haver casos em que tenha-se mais de um branch, apontando para o mesmo commi
 </br> </br>
 <center> <h1> Mas por que usar branches ? </h1> </center>
 
-<h3> As vantagens de se usar branches 
+<h3> As vantagens de se usar branches </h3>
+<font size = "15px" face="comicsans">
 <ol>
 <li>Poder modificar sem alterar o local principal (Master) ex:Pode trabalhar em outro local, corrigir modificar algo sem modificar o princiapal </li>
 <li>Facilmente "Desligável" ex:Pode ser apagado branchs muito fácil e rápido, podendo criar vário branches sem nenhum problema </li>
 <li>Múltiplas pessoas trabalhando ex:Ou pode haver um projeto com 3 branches e cada uma trabalhando na sua sem interferir o outro </li>
 <li>Evita conflitos ex:Como pode haver um caso que a pessoa X esteja trabalhando em uma branch exclusiva, a quantidade de conflitos e bem menor </li>
 </ol>
-
- 
+</font>
