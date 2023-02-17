@@ -270,19 +270,21 @@ observando a figura pode se perceber que at√© o commit C2 os commit do main est√
 
 </br>
 <h4> Durante o processo </h4>
-           
-					       Experiment
-        	                        Main      |
-	                                 |        |
-                                         |        |          
-        	C0-------C1------C2------C4------C3'
-                        	          \
-                                	   \
-	                                    \
-					     \
-                	                      \                                     
-					       \
-						C3
+
+
+                                               Experiment
+                                        Main      |
+                                         |        |
+                                         |        |
+                C0-------C1------C2------C4------C3'
+                                          \
+                                           \
+                                            \
+                                             \
+                                              \
+                                               \
+                                                C3
+
 
 O Rebase realiza, opera de uma maneira um pouco diferente do merge, enquanto o merge, realiza um novo commit, para juntar os novos commit relaizar em uma nova branch a branch principal. 
 O rebase, ele pega o commit da branch "auxiliar", e "move" pra frente de onde ele tiver "jogando", no nosso exemplo acima, este metodo, moveria o commit C3 para frente do commit c4, torando novamente os commits lineares.Realizando uma especie de delete do commit da branch "auxiliar. Em suma o rebase, move tudo que houve em um commit separado e coloca na fila sempre. 
