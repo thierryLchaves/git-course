@@ -153,6 +153,7 @@ sendo eles <b>MERGE</b> <b>REBASE</b>
 <h3 class=heading" style="text-align:center;"> Passo a Passo - Merge </h3>
 </br> 
 <h4>No inicio exemplo com 2 branchs</h4>
+
                                 MAIN
                                   |
                                   |
@@ -163,7 +164,10 @@ sendo eles <b>MERGE</b> <b>REBASE</b>
                                   |
                                 Iss53
 
+
+
 <h4>Criando um novo branch</h4>
+
                                 MAIN
                                   |
                                   |
