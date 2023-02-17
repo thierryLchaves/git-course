@@ -238,7 +238,7 @@ observando a figura pode se perceber que até o commit C2 os commit do main est�
 
 <table>
 <tr>
-<th>Prós <th>
+<th>Prós </th>
 <th>Contras</th>
 <tr> 
 <td>Operação não destrutiva (não irá destruir commit nenhum, não estragando o histórico) </td>
@@ -248,3 +248,43 @@ observando a figura pode se perceber que até o commit C2 os commit do main est�
 <td></td>
 <td>Histótico poluído (isso pode ficar complicado a visualização do histórico caso haja muitas branchs) </td>
 </table>
+
+</br></br>
+
+<h2 class="headgin" style="text-align:center;">Entendendo o Rebase </h2></br>
+<h4> Estado inicial </h4>
+
+                                    Main
+                                     |
+                                     |
+                                     |
+        C0----------C1----------C2---C4
+                                  \
+                                   \
+                                    \
+                                     C3
+                                      |
+                                      |
+                                      |
+                                 Experiment
+
+</br>
+<h4> Durante o processo </h4>
+           
+					       Experiment
+        	                        Main      |
+	                                 |        |
+                                         |        |          
+        	C0-------C1------C2------C4------C3'
+                        	          \
+                                	   \
+	                                    \
+					     \
+                	                      \                                     
+					       \
+						C3
+
+O Rebase realiza, opera de uma maneira um pouco diferente do merge, enquanto o merge, realiza um novo commit, para juntar os novos commit relaizar em uma nova branch a branch principal. 
+O rebase, ele pega o commit da branch "auxiliar", e "move" pra frente de onde ele tiver "jogando", no nosso exemplo acima, este metodo, moveria o commit C3 para frente do commit c4, torando novamente os commits lineares.Realizando uma especie de delete do commit da branch "auxiliar. Em suma o rebase, move tudo que houve em um commit separado e coloca na fila sempre. 
+Esse processo é chamado de: fast forward
+
