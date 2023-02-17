@@ -93,7 +93,7 @@ Branch
 
 
 
-Pode haver casos em que tenha-se mais de um branch, apontando para o mesmo commit
+Pode haver casos em que tenha-se mais de um branch, apontando para o mesmo commit </br>
 	<b> Separando </b>
 	
 	MAIN
@@ -107,4 +107,18 @@ Pode haver casos em que tenha-se mais de um branch, apontando para o mesmo commi
 	Testing -> Nova branch apontando para o mesmo commit
 
 
+	<b> Branches em diferentes commits </b>
+
+				MAIN
+				  |
+				  |
+				  |
+	C0-----------C1----------c2----------c3
+				             |
+					     |
+                                             |
+					  Iss53
+
+</br> </br>
+<font size h1> Mas por que usar branches ? </font size>
 
