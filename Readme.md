@@ -145,4 +145,84 @@ Como dito anteriormente para visualizar a lista de branchs que existem no reposi
 quando é necessário realizar o retorno a branch principal, ou mudar a branch que se está trabalhando o comando utilizado deve ser o <b> git checkout "nome da branc desejada"</b>
 Em casos que é necessário apagar a branch por algum motivo, o comando a ser digitado deverá ser o <b>git branch -D "nome do branch"</b>
 
+</br></br>
+<h2 class="headgin" style="text-align:center;">Entendendo o Merge </h2>
+<p>
+Quando se realiza o uso de branch, com branchs externos, com branchs internos faz-se necessário realizar a união dessa branchs, tal processo é feito através dos metodos existentes, 
+sendo eles <b>MERGE</b> <b>REBASE</b>
+<h3 class=heading" style="text-align:center;"> Passo a Passo - Merge </h3>
+</br> 
+<h4>No inicio exemplo com 2 branchs</h4>
+                                MAIN
+                                  |
+                                  |
+                                  |
+        C0-----------C1----------c2
+                                  |
+                                  |
+                                  |
+                                Iss53
+
+<h4>Criando um novo branch</h4>
+                                MAIN
+                                  |
+                                  |
+                                  |
+        C0-----------C1----------c2----------c3
+                                             |
+                                             |
+                                             |
+                                          Iss53
+
+
+<h4> Criamos um commit pelo branch main </h4>
+
+
+				MAIN	  HOTFIX
+				 |	    |
+				 |	    |
+				 |	    |
+	C0----------C1----------C2----------C4
+				  \
+				   \
+				    \
+				    C3
+				     |
+				     |
+				     |
+				   Iss53
+
+<h4>Criamos outro commit no branch iss53</h4>
+
+                                          Main
+                                            |
+                                            |
+                                            |
+        C0----------C1----------C2----------C4
+                                  \
+                                   \
+                                    \
+                                    C3------C5
+					    |
+					    |
+					    |
+					   iss53
+
+
+<h4> Fazendo o Merge </h4>
+
+		                                       Main
+                                           		 |
+	                                            	 |
+                                           		 |
+        C0----------C1----------C2----------C4----------C6
+                                  \                     /
+                                   \                   /
+                                    \                 /
+                                    C3---------C5-----
+                                                |
+                                                |
+                                                |
+                                               iss53
+
 
