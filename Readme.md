@@ -245,6 +245,6 @@ observando a figura pode se perceber que até o commit C2 os commit do main est�
 <td>E um commit extra no seu projeto(é um commit pouco efétivo, não faz diferença no commit além de juntar branchs</td>
 </tr>
 <tr>
-</td>
+<td></td>
 <td>Histótico poluído (isso pode ficar complicado a visualização do histórico caso haja muitas branchs) </td>
 </table>
