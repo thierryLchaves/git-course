@@ -219,14 +219,20 @@ sendo eles <b>MERGE</b> <b>REBASE</b>
                                            		 |
 	                                            	 |
                                            		 |
-        C0----------C1----------C2----------C4----------C6
+        C0----------C1----------C2-----C4----------------C6
                                   \                     /
                                    \                   /
                                     \                 /
-                                    C3---------C5-----
-                                                |
-                                                |
-                                                |
-                                               iss53
+				     \               /
+                                      \             /    
+                                       \           /
+                                       C3--------C5
+                                                 | 
+                                                 |
+                                                 |
+						iss53
 
 
+
+Esta forma de realizar a junção de uma branch de commit, para uma forma "linear", é chamada de forma diamante.Como pode se notar na figura os commit executados torana-se uma especie de ciclo
+observando a figura pode se perceber que até o commit C2 os commit do main estão lineares, porém os commits C3 e C5, estão em outra ramificação do commit iss53.Criando um vertice tal qual umtriangulo, utilizando o comando merge, sempre que for realizar um este comando o git irá criar um novo commit, juntando o branch principal com o commit que está sendo trabalhado separadamente. 
