@@ -134,8 +134,10 @@ Pode haver casos em que tenha-se mais de um branch, apontando para o mesmo commi
 <li>Evita conflitos ex:Como pode haver um caso que a pessoa X esteja trabalhando em uma branch exclusiva, a quantidade de conflitos e bem menor </li>
 </ol>
 </font>
-<h4 class="heading" style="text-align: center;"> Criando uma branch
-</h4>
+  <div class="b" style="border: 1px solid rgba(51, 51, 51, 0.4); background: rgba(51, 51, 51, 0.1);">
+ <h4 class="heading" style="text-align: center;">
+          O comando que é utilizado para se criar uma nova branch é : <b> git checkout -b "aqui deve ser inserido o nome da nova branch"</b>
 
-O comando que é utilizado para se criar uma nova branch é : <b> git checkout -b "aqui deve ser inserido o nome da nova branch"</b>
+ </h4>
+ </div>
 
