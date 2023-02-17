@@ -82,11 +82,29 @@ EX:
 
 Branch
 
-	MASTER
+	MAIN
 	  |
 	  |
 	  |
-	F30ab ------------------- 34ac2--------------------------98a9
+	F30ab ------------------- 34ac2--------------------------98ca9
 	  |                         |                              |
 	  |                         |                              |
  	Sanpashot C              Snapshot B                      Snapshot A
+
+
+
+Pode haver casos em que tenha-se mais de um branch, apontando para o mesmo commit
+	<b> Separando </b>
+	
+	MAIN
+	  |
+	  |
+	  |
+	F30ab---------------------34acs--------------------------98ca9
+	  |
+	  |
+	  |
+	Testing -> Nova branch apontando para o mesmo commit
+
+
+
