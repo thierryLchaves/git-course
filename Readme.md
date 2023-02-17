@@ -288,5 +288,34 @@ observando a figura pode se perceber que até o commit C2 os commit do main est�
 
 O Rebase realiza, opera de uma maneira um pouco diferente do merge, enquanto o merge, realiza um novo commit, para juntar os novos commit relaizar em uma nova branch a branch principal. 
 O rebase, ele pega o commit da branch "auxiliar", e "move" pra frente de onde ele tiver "jogando", no nosso exemplo acima, este metodo, moveria o commit C3 para frente do commit c4, torando novamente os commits lineares.Realizando uma especie de delete do commit da branch "auxiliar. Em suma o rebase, move tudo que houve em um commit separado e coloca na fila sempre. 
-Esse processo é chamado de: fast forward
+Esse processo é chamado de: fast forward, no nosso exemplo ele pega o commit que não estava dentro da branch principal, e o move para frente commit principal, nesse caso ele pega o commit C3 e o move para frente do commit C4, fazendo assim que tanto o commit main e o commit expience estejam na mesma linha
+
+
+                                                MAIN
+                                                  |
+                                                  |
+                                                  |
+                C0-------C1------C2------C4------C3'
+						  |
+						  |
+  	 					  |
+					      Experiment
+
+
+
+E dessa forma os commit ficam de forma linear, dos commit's o que mitiga a confusão ao visualizar os commit's.
+<table>
+<tr>
+<th>Prós </th>
+<th>Contras</th>
+<tr>
+<td>Evita commits extras (Neste caso como ele mantem os commits na linearidade, não existe a necessidade de um commit extra) </td>
+<td>Perde a ordem cronológica(Quando é utilizado o comando rebase, o histórico fica um pouco confuso, pois como ele sempre realiza a adição do seu commit a frente, pode haver certa confusão ) </td>
+</tr>
+<tr>
+<td>Histórico Linear(O rebase sempre irá criar um histórico linear)</td>
+<td>Histótico poluído (isso pode ficar complicado a visualização do histórico caso haja muitas branchs) </td>
+</table>
+
+<h1> obs é aconselhado a usar o comando pool <b>git pool --rebase </b>, evitando assim realizar mudanças em branchs que não utilizaria </h1>
 
