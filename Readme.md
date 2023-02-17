@@ -73,4 +73,20 @@ repositório que não é da pessoa, para a pessoa em questão no proprio github,
 Sobre as branch
 
 O que é um branch ?
-De forma mais rapida a ser explicada, a branch e um ponteiro movel que leva a um comit.
+De forma mais rapida a ser explicada, a branch e um ponteiro movel que leva a um comit
+
+Lembrando a cada commit realizado em arquivos, o git gera um hash sobre aquele arquivo e um snapshot daquele arquivo naquele momento. 
+
+O que o branch e como se fosse um ponteiro, que aponto pro repostório/arquivo naquele momento daquele commit em questão 
+EX:
+
+Branch
+
+	MASTER
+	  |
+	  |
+	  |
+	F30ab ------------------- 34ac2--------------------------98a9
+	  |                         |                              |
+	  |                         |                              |
+ 	Sanpashot C              Snapshot B                      Snapshot A
