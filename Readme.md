@@ -352,4 +352,28 @@ git config --global (Este trecho do código realiza como visto anteirormente a c
 <h1>Versionando com Tags</h1>
 para trabalhar com tag o comando é: <b> git tag -a 1.0.0 -m "Readme finalizado"</b> neste techo do código é informaod que será adicionado uma tag, e o trecho -a servira como anotação  </br>
 Para realizar a adição de deste comando é necessário realizar o comando <b> git push origin main --tags </b>
-Ao digitar git tag é possivel ver quais tags estão disponivéis 
+Ao digitar git tag é possivel ver quais tags estão disponivéis
+
+</br></br>
+<h1>Vgit revert</h1>
+Esse comando é utilizado para reverter o ultimo commit realizado, no caso pode-se realizar adições de novas informações no código ou no arquivo que se está trabalhando. </br>
+porém não se quer realizar um git reset ou algo do tipo somente é necessário realizar a reversão do ultimo commit, neste caso o passo a ser seguido é: </br> </br>
+git log este comando se faz necessário pois é preciso "pegar a ID do commit".
+[
+commit 581c2067c773c8d2723d0eaefb35192f18731bbb
+Author: Tlchaves <thierry.lucaschaves@gmail.com>
+Date:   Thu Feb 23 00:02:10 2023 -0300
+
+    add new line
+
+commit 7ec5caf2b0c966ad22daaac2a8092c65079b575e (origin/main)
+Author: Tlchaves <thierry.lucaschaves@gmail.com>
+Date:   Thu Feb 23 00:00:50 2023 -0300
+
+    teste
+
+commit 1cd6a015429fcda228d3b2b6e0a1f3a62302d51f (tag: 1.0.2)
+Author: Tlchaves <thierry.lucaschaves@gmail.com> ]
+</br></br>
+Após isso o comando a ser excutado será 
+</b git revert "Aqui será incluso a hash anteiromente coletada">
