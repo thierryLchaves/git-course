@@ -337,7 +337,12 @@ https://github.com/github/gitignore
 Exemplo de utilização, 
 ao estar trabalhando em uma branch x, com um arquivo Y, pode ser necessário realizar a troca de branch ou algo do tipo, porém não deseja-se realizar a adição desta modicação para Statament.Neste caso pode ser utilizado o comando : <b> git stash </b> para que o arquivo com suas alterações em questão seja modificado para o estado de WIP(Woking in Progress), o que iŕa retornar o arquivo em questão 
 ao estado anteiror a alteração/modificação, ao realizar as mudanças que deseja seja em outra branch ou algo do tipo deve ser utilizado o comando : <b >git stash apply </b>
-o comando: <b> git stash list </b> mostra quais são os statsh contidos na branch
-o comando: <b> git stash clear </b> realiza a limpeza de todos os stash's existentes. 
+</br></br> o comando: <b> git stash list </b> mostra quais são os statsh contidos na branch
+</br></br> o comando: <b> git stash clear </b> realiza a limpeza de todos os stash's existentes. 
 
-
+</br></br>
+<h1>Criando ALIAS</h1>
+EXEMPLO:
+git config --global alias.s status, neste caso o que este comando fará efetivamente. 
+git config --global (Este trecho do código realiza como visto anteirormente a configuração global do git), alias.s (Este trecho do código informa que será adicionado um alias, e qual será o alias)
+ status (Este techo do codigo informa qual o comando será subistitudo ou apelidado)
