@@ -320,5 +320,6 @@ E dessa forma os commit ficam de forma linear, dos commit's o que mitiga a confu
 <h2> obs é aconselhado a usar o comando pool <b>git pool --rebase </b>, evitando assim realizar mudanças em branchs que não utilizaria </h2>
 
 teste
+teste 23
 
 
