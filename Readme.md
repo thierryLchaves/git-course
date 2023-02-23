@@ -355,10 +355,10 @@ Para realizar a adição de deste comando é necessário realizar o comando <b> 
 Ao digitar git tag é possivel ver quais tags estão disponivéis
 
 </br></br>
-<h1>Vgit revert</h1>
+<h1>GIT REVERT</h1>
 Esse comando é utilizado para reverter o ultimo commit realizado, no caso pode-se realizar adições de novas informações no código ou no arquivo que se está trabalhando. </br>
 porém não se quer realizar um git reset ou algo do tipo somente é necessário realizar a reversão do ultimo commit, neste caso o passo a ser seguido é: </br> </br>
-git log este comando se faz necessário pois é preciso "pegar a ID do commit".
+git log este comando se faz necessário pois é preciso "pegar a ID do commit".</br>
 [
 commit 581c2067c773c8d2723d0eaefb35192f18731bbb
 Author: Tlchaves <thierry.lucaschaves@gmail.com>
@@ -376,4 +376,4 @@ commit 1cd6a015429fcda228d3b2b6e0a1f3a62302d51f (tag: 1.0.2)
 Author: Tlchaves <thierry.lucaschaves@gmail.com> ]
 </br></br>
 Após isso o comando a ser excutado será 
-</b git revert "Aqui será incluso a hash anteiromente coletada">
+<b> git revert "Aqui será incluso a hash anteiromente coletada" </b>>
