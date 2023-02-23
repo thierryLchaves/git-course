@@ -346,3 +346,8 @@ EXEMPLO:
 git config --global alias.s status, neste caso o que este comando fará efetivamente. 
 git config --global (Este trecho do código realiza como visto anteirormente a configuração global do git), alias.s (Este trecho do código informa que será adicionado um alias, e qual será o alias)
  status (Este techo do codigo informa qual o comando será subistitudo ou apelidado)
+
+
+</br></br>
+<h1>Versionando com Tags</h1>
+para trabalhar com tag o comando é: <b> git tag -a 1.0.0 -m "Readme finalizado"</b> neste techo do código é informaod que será adicionado uma tag, e o trecho -a servira como anotação  </br>
