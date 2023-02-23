@@ -318,8 +318,11 @@ E dessa forma os commit ficam de forma linear, dos commit's o que mitiga a confu
 </table>
 
 <h2> obs é aconselhado a usar o comando pool <b>git pool --rebase </b>, evitando assim realizar mudanças em branchs que não utilizaria </h2>
-
-teste
-teste 23
-
-
+</br>
+<h1> GIT GINORE </h1>
+<p>
+Este comando server especificamente para não trakear alguns arquivos. 
+Exemplo : Digamos que temos arquivos com senhas, e elas não podem ser "subidas para algum lugar publico", porém elas precisam ser adicionadas, no ambiente"
+para não subir esse tipo de coisa, e feito o arquivo gitignore e dentro deste arquivo será adicionado no respositorio, e será escrito alguns padrões que ele não utilize.
+Dentro do arquivo gitignore, é possivél não somente determinar qual arquivo em especifico como também informar os tipos de extensões que não serão "subidas".
+</p>
