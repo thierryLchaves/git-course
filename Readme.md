@@ -377,4 +377,7 @@ Author: Tlchaves <thierry.lucaschaves@gmail.com> ]
 </br></br>
 Após isso o comando a ser excutado será 
 <b> git revert "Aqui será incluso a hash anteiromente coletada" </b> 
-A grande utilização do revert é que diferentemente do <b> git reset </b> o revert realiza somente a reversão do commit não do arquivo em sí pois assim poderá ter mais tempo para visulizar o mesmo 
+A grande utilização do revert é que diferentemente do <b> git reset </b> o revert realiza somente a reversão do commit não do arquivo em sí pois assim poderá ter mais tempo para visulizar o mesmo, sendo bastente indicado nos casos em que se é preciso realizar a visualização de um hitórico coisa que no caso do reset apaga, para que possa ser analisado com git show o que forá modificado
+</br> </br>
+<b> obs: Usar esse comando até encontrar uma maneira de tornar VSCODE abrir como root padrão 
+sudo chown -R <USER> <DIRETÓRIO> </b>
