@@ -332,3 +332,8 @@ https://github.com/github/gitignore
 
 </p>
 </br></br>
+<h1> GIT STASH</h1>
+<b> Esse "Comando",</b> é responsável por guardar modificações que ainda não foram commitadas, em um arquivo que pode se chamar depois quando for necessário. 
+Exemplo de utilização, 
+ao estar trabalhando em uma branch x, com um arquivo Y, pode ser necessário realizar a troca de branch ou algo do tipo, porém não deseja-se realizar a adição desta modicação para Statament.Neste caso pode ser utilizado o comando : <b git stash /> para que o arquivo com suas alterações em questão seja modificado para o estado de WIP(Woking in Progress), o que iŕa retornar o arquivo em questão 
+ao estado anteiror a alteração/modificação, ao realizar as mudanças que deseja seja em outra branch ou algo do tipo deve ser utilizado o comando : <b git stash apply />
