@@ -326,5 +326,9 @@ Exemplo : Digamos que temos arquivos com senhas, e elas não podem ser "subidas 
 para não subir esse tipo de coisa, e feito o arquivo gitignore e dentro deste arquivo será adicionado no respositorio, e será escrito alguns padrões que ele não utilize.
 Dentro do arquivo gitignore, é possivél não somente determinar qual arquivo em especifico como também informar os tipos de extensões que não serão "subidas".
 Basicamente este  arquivo serve para determinar, quais extensões e ou arquivos não serão trakeados no commit. 
+
+Para mais informações /exemplo de utilizações de projetos e arquivos que podem ser adicionados no GITIGNORE acessar o repositório através do lik
+https://github.com/github/gitignore
+
 </p>
 </br></br>
