@@ -352,3 +352,4 @@ git config --global (Este trecho do código realiza como visto anteirormente a c
 <h1>Versionando com Tags</h1>
 para trabalhar com tag o comando é: <b> git tag -a 1.0.0 -m "Readme finalizado"</b> neste techo do código é informaod que será adicionado uma tag, e o trecho -a servira como anotação  </br>
 Para realizar a adição de deste comando é necessário realizar o comando <b> git push origin main --tags </b>
+Ao digitar git tag é possivel ver quais tags estão disponivéis 
