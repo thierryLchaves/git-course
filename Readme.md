@@ -378,3 +378,4 @@ Author: Tlchaves <thierry.lucaschaves@gmail.com> ]
 Após isso o comando a ser excutado será 
 <b> git revert "Aqui será incluso a hash anteiromente coletada" </b> 
 A grande utilização do revert é que diferentemente do <b> git reset </b> o revert realiza somente a reversão do commit não do arquivo em sí pois assim poderá ter mais tempo para visulizar o mesmo 
+rexe
