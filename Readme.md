@@ -321,8 +321,10 @@ E dessa forma os commit ficam de forma linear, dos commit's o que mitiga a confu
 </br>
 <h1> GIT GINORE </h1>
 <p>
-Este comando server especificamente para não trakear alguns arquivos. 
+Este arquivo server especificamente para não trakear alguns arquivos. 
 Exemplo : Digamos que temos arquivos com senhas, e elas não podem ser "subidas para algum lugar publico", porém elas precisam ser adicionadas, no ambiente"
 para não subir esse tipo de coisa, e feito o arquivo gitignore e dentro deste arquivo será adicionado no respositorio, e será escrito alguns padrões que ele não utilize.
 Dentro do arquivo gitignore, é possivél não somente determinar qual arquivo em especifico como também informar os tipos de extensões que não serão "subidas".
+Basicamente este  arquivo serve para determinar, quais extensões e ou arquivos não serão trakeados no commit. 
 </p>
+</br></br>
