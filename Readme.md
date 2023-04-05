@@ -381,3 +381,9 @@ A grande utilização do revert é que diferentemente do <b> git reset </b> o re
 </br> </br>
 <b> obs: Usar esse comando até encontrar uma maneira de tornar VSCODE abrir como root padrão 
 sudo chown -R <USE> <DIRETÓRIO> </b>
+
+</br> <b> Curso em vídeo </b> </br>
+
+A maneira mais simplis de realizar o processo em 2 computadores diferentes, no caso do seru reposítório seria utilizando o GITHUB desktop, nesse app realia-ze o login na sua conta gitbug
+e posteriormente realizar o seguinte comando, file->options->git e basta clicar nos dois arquivos e salvar
+posteriomente e seguir o processo de push
